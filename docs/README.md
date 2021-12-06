@@ -1,5 +1,7 @@
 # gm-docs-challenge documentation
 
+This folder contains a collection of resources used during the development of the project.
+
 ## Kubernetes - Helpful Resources
 
 **If you’re looking for some helpful resources, check out these links:**
