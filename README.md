@@ -4,4 +4,6 @@
 
 [Gianpaolo Macario](https://github.com/gmacario) submission to the [2021 Kuberneres Challenge by DigitalOcean](https://www.digitalocean.com/community/pages/kubernetes-challenge).
 
+Attempted challenge: Deploy a GitOps CI/CD implementation
+
 <!-- EOF -->
