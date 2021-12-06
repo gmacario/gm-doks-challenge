@@ -6,4 +6,10 @@
 
 Attempted challenge: Deploy a GitOps CI/CD implementation
 
+## License and Copyright
+
+Please see [LICENSE](LICENSE) file.
+
+Copyright (c) 2021, [Gianpaolo Macario](https://github.com/gmacario).
+
 <!-- EOF -->
