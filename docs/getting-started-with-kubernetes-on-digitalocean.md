@@ -2,7 +2,7 @@
 
 [![Getting Started With Kubernetes on DigitalOcean](https://img.youtube.com/vi/cJKdo-glRD0/0.jpg)](https://www.youtube.com/watch?v=cJKdo-glRD0 "Getting Started With Kubernetes on DigitalOcean")
 
-Learn how to spin up a Kubernetes cluster, deploy an application to the cluster and set up an ingress so that the application is available on the internet. 
+Learn how to spin up a Kubernetes cluster, deploy an application to the cluster and set up an ingress so that the application is available on the internet.
 
 What You’ll Learn
 - Creating and connecting to a DigitalOcean Managed Kubernetes (DOKS) cluster
