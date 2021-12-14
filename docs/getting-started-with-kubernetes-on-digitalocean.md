@@ -27,27 +27,27 @@ What You’ll Learn
 Resources: <https://www.digitalocean.com/community/tech_talks/getting-started-with-kubernetes-on-digitalocean>
 
 Presented By
-Kim Schlesinger, Developer Advocate, DigitalOcean [Twitter: @kimschles] 
+Kim Schlesinger, Developer Advocate, DigitalOcean [Twitter: @kimschles]
 Mason Egger, Senior Developer Advocate, DigitalOcean [Twitter: @megger]
 
 - - - - - - - - - -
 
 New to DigitalOcean? Get US $100 in credit when you sign up: <https://do.co/build​​​​>
 
-Learn and gain inspiration with DigitalOcean Tech Talks: <https://www.digitalocean.com/communit...>
+Learn and gain inspiration with DigitalOcean Tech Talks: <https://www.digitalocean.com/community/tags/tech-talks>
 
-Subscribe to the DigitalOcean YouTube channel: 
+Subscribe to the DigitalOcean YouTube channel:
 <https://www.youtube.com/digitalocean>
 
-Write for DOnations — Share your knowledge and get paid, while supporting tech-focused nonprofits and charities: 
-<https://www.digitalocean.com/communit...>
+Write for DOnations — Share your knowledge and get paid, while supporting tech-focused nonprofits and charities:
+<https://www.digitalocean.com/community/pages/write-for-digitalocean>
 
-- - - - - - - - - - 
+- - - - - - - - - -
 
 About DigitalOcean<br>
 The DigitalOcean Developer Cloud™ simplifies modern app creation for new generations of developers working independently, at tech startups, and within small-to-medium sized businesses around the world.
 
-#Kubernetes #DOKS #DOTechTalks
+\#Kubernetes \#DOKS \#DOTechTalks
 
 ## Transcript
 
