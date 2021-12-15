@@ -128,6 +128,20 @@ CMD ["python", "/app/main.py"]
 Flask
 ```
 
+#### Build the Docker image
+
+```bash
+docker build -t python-k8s .
+``` 
+
+**NOTE**: If you do not have Docker installed
+
+```bash
+sudo snap install docker
+```
+
+If the "docker" command fails, try prepending it with "sudo".
+
 #### Running it locally inside a Docker container
 
 ```bash
@@ -149,6 +163,22 @@ We have already created a registry whose URL is `registry.digitalocean.com/sammy
 ```bash
 doctl registry login
 ```
+
+**NOTE**: If you do not have the `doctl` command installed, please refer to <https://docs.digitalocean.com/reference/doctl/how-to/install/>
+
+
+```bash
+docker tag python-k8s registry.digitalocean.com/sammy/python-k8s
+docker push registry.digitalocean.com/sammy/python-k8s
+```
+
+* Q1(Michael Potter): What software is being used to create this live stream? That is, what are they using to project the screen and web cams?
+  - A: [StreamYard](https://streamyard.com/)
+
+* Q2(Gilles Fauvie): If main.py takes a while to execute, do I need kubernetes to be able to get and answer multiple http requests?
+  - A: ... You should probably use [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/) and then Kubernetes
+
+Let's look back at the DO Console and confirm that the image has been pushed to the Container Registry.
 
 TODO
 
