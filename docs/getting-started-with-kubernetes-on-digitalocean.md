@@ -49,13 +49,20 @@ The DigitalOcean Developer Cloud™ simplifies modern app creation for new gener
 
 \#Kubernetes \#DOKS \#DOTechTalks
 
-## Transcript
+## Introduction
+
+([Video 00:00](https://www.youtube.com/watch?v=cJKdo-glRD0&t=0s))
 
 ### Getting Started with Kubernetes on DigitalOcean
 
 #### DigitalOcean
 
 13 October 2021
+
+
+## Learning goals today
+
+([Video 01:31](https://www.youtube.com/watch?v=cJKdo-glRD0&t=91s))
 
 ### Goals
 
@@ -64,6 +71,11 @@ The DigitalOcean Developer Cloud™ simplifies modern app creation for new gener
 * Set up a Kubernetes cluster
 * Deploy at least 3 replicas of the Python app in the cluster
 * (stretch) Expose the app to the internet
+
+
+## Containerize a Python application
+
+([Video 03:54](https://www.youtube.com/watch?v=cJKdo-glRD0&t=234s))
 
 ### Sample Python app
 
@@ -124,6 +136,63 @@ docker run -p 8080:8080 python-k8s
 
 then launch your browser and open <http://localhost:8080/>
 
-TODO: Continue from 09:00
+## Push the container image to a registry
+
+([Video 09:49](https://www.youtube.com/watch?v=cJKdo-glRD0&t=589s))
+
+A registry is a place where you can store container images, and there are things like [Docker Hub](https://hub.docker.com/), and there is [Quay](https://quay.io/), and DigitalOcean has a registry called [DOCR](https://www.digitalocean.com/products/container-registry/) which stands for "DigitalOcean Container Registry". We are going to push Mason's images to that registry.
+
+After logging into the [DigitalOcean Control Panel](https://cloud.digitalocean.com/) click on "Container Registry" and choose your preferred plan (there is a free plan to start) to create your own container registry.
+
+We have already created a registry whose URL is `registry.digitalocean.com/sammy`, so we first need to login to the registry using command
+
+```bash
+doctl registry login
+```
+
+TODO
+
+
+## Set up a Kubernetes cluster
+
+(Video 16:20)
+
+TODO
+
+
+## (35:15) Deploy at least 3 replicas of the Python app in the cluster
+
+TODO
+
+
+## (47:40) Expose the app to the internet
+
+TODO
+
+
+## (56:50) Estimated costs
+
+TODO
+
+
+## (57:55) What we've learned today
+
+TODO
+
+
+## (1:01:08) Reducing costs
+
+TODO
+
+
+## (1:04:32) CrashLoopBackOff
+
+TODO
+
+
+## (1:05:49) Summary
+
+TODO
+
 
 <!-- EOF -->
