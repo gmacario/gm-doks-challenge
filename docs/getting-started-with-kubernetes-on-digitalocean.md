@@ -132,7 +132,7 @@ Flask
 
 ```bash
 docker build -t python-k8s .
-``` 
+```
 
 **NOTE**: If you do not have Docker installed
 
@@ -258,6 +258,5 @@ TODO
 ## (1:05:49) Summary
 
 TODO
-
 
 <!-- EOF -->
