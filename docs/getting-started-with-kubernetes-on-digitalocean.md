@@ -172,6 +172,41 @@ docker tag python-k8s registry.digitalocean.com/sammy/python-k8s
 docker push registry.digitalocean.com/sammy/python-k8s
 ```
 
+FIXME: Last command "docker push ..." fails
+
+```text
+root@wholesome-grouper:~# docker push registry.digitalocean.com/gmacario/python-k8s
+Using default tag: latest
+The push refers to repository [registry.digitalocean.com/gmacario/python-k8s]
+cbf0bcb90c02: Preparing
+c3a2f7b373c6: Preparing
+00d312f1ee37: Preparing
+990f5ecef2da: Preparing
+dc0c3f402dd8: Preparing
+1b2bca9c5a6e: Waiting
+3ff9c5f71066: Waiting
+d4151e7436b1: Waiting
+3b441d7cb46b: Waiting
+d3710de04cb3: Waiting
+91f7336bbfff: Waiting
+e2e8c39e0f77: Waiting
+unauthorized: authentication required
+root@wholesome-grouper:~#
+```
+
+It looks like we tried to push an image whose size is 923MB, but the subscription plan we chose for the Container Registry (Starter - free) only allows up to 1 Repository and max 500 MB Storage:
+
+```text
+root@wholesome-grouper:~# docker images
+REPOSITORY                                      TAG       IMAGE ID       CREATED          SIZE
+python-k8s                                      latest    0d263799828a   10 minutes ago   923MB
+registry.digitalocean.com/gmacario/python-k8s   latest    0d263799828a   10 minutes ago   923MB
+python                                          latest    a42e2a4f3833   7 days ago       917MB
+root@wholesome-grouper:~#
+```
+
+TODO: Why is the `python-k8s` image shown in the video only 337.46 MB?
+
 * Q1(Michael Potter): What software is being used to create this live stream? That is, what are they using to project the screen and web cams?
   - A: [StreamYard](https://streamyard.com/)
 
