@@ -1,6 +1,51 @@
 # Getting Started With Kubernetes on DigitalOcean
 
+## Tech Talk
+
+<https://www.digitalocean.com/community/tech_talks/getting-started-with-kubernetes-on-digitalocean>
+
+Tags: `Kubernetes` `DigitalOcean` `Managed Kubernetes` `Tech Talks`
+
+By Mason Egger and Kim Schlesinger
+
+Event on: October 13, 2021
+
+### Video
+
 [![Getting Started With Kubernetes on DigitalOcean](https://img.youtube.com/vi/cJKdo-glRD0/0.jpg)](https://www.youtube.com/watch?v=cJKdo-glRD0 "Getting Started With Kubernetes on DigitalOcean")
+
+### About the Talk
+
+Have you heard about Kubernetes, but aren’t sure how to get started? Watch this live demo to see how you can spin up a Kubernetes cluster and deploy your application.
+
+#### What You’ll Learn
+
+* Creating and connecting to a DigitalOcean Managed Kubernetes (DOKS) cluster
+* Deploying an application into the cluster
+* Installing nginx-ingress to expose the application to the internet
+
+#### This Talk Is Designed For
+
+DigitalOcean users who would like to experiment with DOKS
+
+#### Prerequisites
+
+Basic knowledge of servers and containers
+
+### Resources
+
+* [Slides](https://docs.google.com/presentation/d/1dVwgJXPPSeCE8c-CToLHdvJQOY1xg3ghq2FxXoEYLuI/edit#slide=id.g9b8b568914_0_0)
+* Kubernetes on DigitalOcean: [Docs](https://docs.digitalocean.com/products/kubernetes/)
+* Kubernetes for Full-Stack Developers: [eBook](https://www.digitalocean.com/community/books/digitalocean-ebook-kubernetes-for-full-stack-developers)
+* Kubernetes Starter Kit for Simplifying Day-2 Operations: [Video](https://www.digitalocean.com/community/tech_talks/getting-started-with-managed-kubernetes-day-2-operations)
+
+#### [Kubernetes in minutes, on DigitalOcean](https://www.digitalocean.com/products/kubernetes/)
+
+DigitalOcean Kubernetes (DOKS) is a managed Kubernetes service that lets you deploy Kubernetes clusters without the complexities of handling the control plane and containerized infrastructure. Clusters are compatible with standard Kubernetes toolchains and integrate natively with DigitalOcean Load Balancers and block storage volumes.
+
+DigitalOcean Kubernetes is designed for you and your small business. Start small at just $10 per month, and scale up and save with our free control plane and inexpensive bandwidth.
+
+## YouTube Video
 
 Learn how to spin up a Kubernetes cluster, deploy an application to the cluster and set up an ingress so that the application is available on the internet.
 
